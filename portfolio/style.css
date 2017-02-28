@@ -6,6 +6,7 @@ div{
 div.about{
     float: left;
     width: 48%;
+    margin: auto;
 }
 div.latest{
     float: left;
@@ -27,4 +28,14 @@ img{
 footer{
     clear: both;
     margin: 4%;
+}
+nav
+{display: block;
+float: left;
+}
+li
+{display: inline;
+margin: auto;
+padding:10px;
+
 }
