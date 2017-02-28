@@ -4,18 +4,16 @@ div{
 
 }
 div.about{
-    float: left;
+    
     width: 48%;
     margin: auto;
+    display:block;
 }
 div.latest{
-    float: left;
     width: 48%;
 }
 body {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
+margin: 0 auto;
 }
 div.src{
     width: 50px;
