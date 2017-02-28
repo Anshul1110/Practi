@@ -1,45 +1,24 @@
-<<<<<<< HEAD
-div{
-    margin : auto;
+.bar{
+    display: inline;
+    margin:0 auto;
+    text-align: stretch;
+    padding: 60px;
     
-
-}
-div.about{
     
-    width: 48%;
-    margin: auto;
-    display:block;
 }
-div.latest{
-    width: 48%;
-}
-body {
-margin: 0 auto;
-}
-div.src{
-    width: 50px;
-    height: 50px;
+.nav{
+    background: yellow linear-gradient(to bottom, yellow, #dddd00 50%, orange) no-repeat 50% center;
+  height: 20%;
+    margin:0  auto;
+    padding:10px;
 }
 img{
-    width:200%;
-    height:200%;
+    padding:10px;
+    margin:0 auto;
+    border-radius:10%;
+   
+   
 }
-footer{
-    clear: both;
-    margin: 4%;
+.about{
+    
 }
-nav
-{display: block;
-float: left;
-}
-li
-{display: inline;
-margin: auto;
-padding:10px;
-
-}
-=======
-body{
-    font-family: serif;
-}
->>>>>>> champ
