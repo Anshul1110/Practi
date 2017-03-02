@@ -1,3 +1,14 @@
+.whole{
+    margin:0 auto;
+    padding:0;
+    /*position:relative;*/
+}
+    
+    body{
+    margin:0;
+    padding:0;
+    
+}
 .bar{
     display: inline;
     margin:0 auto;
@@ -15,10 +26,33 @@
 img{
     padding:10px;
     margin:0 auto;
-    border-radius:10%;
+    border-radius:20%;
    
    
 }
+.about-container{
+    height:400px;
+    padding:10px;
+}
 .about{
-    
+    margin: 0 auto;
+    background-color: dodgerblue;
+    border:5px solid yellow;
+    display:inline-block;
+    width:16%;
+    height:70%;   
+}
+.aside{
+    margin:0 auto;
+}
+footer{
+    clear: both;
+    padding: 10px;
+
+}
+.main{
+    margin:20px 250px 20px 250px;
+}
+.image-container{
+    width:100%;
 }
