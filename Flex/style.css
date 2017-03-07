@@ -1,0 +1,14 @@
+.nav{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.name{
+    background-image: url(brain.jpg);
+    background-size: 100px, 80px;
+    background-repeat: no-repeat;
+}
