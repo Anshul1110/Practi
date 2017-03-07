@@ -10,7 +10,7 @@
     
 }
 .bar{
-    display: inline;
+    display: block;
     margin:0 auto;
     text-align: stretch;
     padding: 60px;
@@ -55,4 +55,7 @@ footer{
 }
 .image-container{
     width:100%;
+}
+.container{
+    display:inline-flex;
 }
