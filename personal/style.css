@@ -1,21 +1,24 @@
 body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    
+    margin: 20px;
     }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-self: center;
+    background-color:#e60000;
+    background-size: cover;
 }
 .nav{
     display: flex;
-    justify-content: space-around;
-}
-.cont{
-    display: flex;
-    background-image: url("/jpg/jf.jpg");
-    background-size: cover;
-    width: 80%;
-    height: 100px;
-    z-index: 3;
-    
+    justify-content: flex-start;
+    }
+  a{
+      display: flex;
+      justify-content: flex-start;
+
+  }
+.photo{
+    display:flex;
+    justify-content: flex-start;
+    margin: 10px;
 }
