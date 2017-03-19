@@ -1,7 +1,5 @@
 body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     
-    background-image: url("jpg/background.jpg");
-    background-size: cover;
     }
 .header{
     display: flex;
@@ -11,4 +9,13 @@ body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 .nav{
     display: flex;
     justify-content: space-around;
+}
+.cont{
+    display: flex;
+    background-image: url("/jpg/jf.jpg");
+    background-size: cover;
+    width: 80%;
+    height: 100px;
+    z-index: 3;
+    
 }
