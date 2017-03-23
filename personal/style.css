@@ -1,24 +1,48 @@
 body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     margin: 20px;
+    padding:20px;
     }
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-self: center;
     background-color:#e60000;
     background-size: cover;
 }
 .nav{
     display: flex;
-    justify-content: flex-start;
+    margin:30px;
+
     }
   a{
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-around;
+      padding: 15px;
 
   }
 .photo{
     display:flex;
     justify-content: flex-start;
-    margin: 10px;
+    margin: 30px;
+}
+.poker{
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,75,75);
+}
+.aside{
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgba(0,0, 50, 50);
+
+}
+aside1{
+    display: flex;
+    justify-content: flex-start;
+}
+.ui1{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+
 }
