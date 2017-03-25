@@ -1,4 +1,3 @@
-var go="Welcome to your blog"
-function go(){
-    window.prompt("Wlecome");
-}
+var button="Welcome to your blog"
+function button(){
+    onclick="document.getElementById('demo').innerHTML = Date()" }
