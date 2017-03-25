@@ -1,22 +1,36 @@
 body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    margin: 20px;
-    padding:20px;
+    margin: 10px;
+    padding:10px;
+    background-color: #f0ffff;
+    font-size: 20px;
     }
 .header{
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-    background-color:#e60000;
-    background-size: cover;
+   display: flex;
+    justify-content:space-around;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,75,75);
+    margin:15px;
+    margin-top: 0;
+    padding:20px;
+    border-radius: 15px 15px 15px 15px;
+    height: 70px;
+    
 }
+
 .nav{
     display: flex;
-    margin:30px;
+    
+    
+    padding-top: 5px;
+    padding-left:inherit;
+
+
+   
 
     }
   a{
       display: flex;
       justify-content: space-around;
+      flex-flow: row nowrap;
       padding: 15px;
 
   }
@@ -29,20 +43,60 @@ body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     display: flex;
     justify-content:space-around;
     box-shadow: 10px 10px 10px 10px rgba(0,0,75,75);
+    margin:20px;
+    padding:20px;
+     border-radius: 15px 15px 15px 15px;
+     width: 70%;
 }
-.aside{
+.asid{
     display: flex;
-    justify-content: center;
-    box-shadow: 5px 5px 5px 5px rgba(0,0, 50, 50);
+    flex-direction: column;
+    justify-content: inherit;
+    box-shadow: 10px 10px 10px 10px rgba(0,0, 50, 50);
+    margin: 20px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+        padding-left: 20px;
 
 }
-aside1{
+.aside1{
+   
     display: flex;
-    justify-content: flex-start;
+    
+        padding: 20px 60px 20px 60px;
 }
+
+
+    
+
 .ui1{
     display: flex;
-    justify-content: flex-start;
-    flex-flow: column wrap;
+    flex-direction: column;
+    padding:0px 30px 100px 40px;
 
 }
+.log1{
+    display: flex;
+    z-index:999;
+}
+form{
+    display: flex;
+flex-flow: row nowrap;
+    z-index: 999;
+}
+button{
+    margin-top: 28px;
+}
+.main{
+    display:flex;
+flex-direction: flex-start;
+}
+.for{
+        display: flex;
+    flex-direction: inherit;
+    padding-left: inherit;
+    margin: inherit;
+
+}
+li{
+        }
