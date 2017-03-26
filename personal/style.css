@@ -1,4 +1,4 @@
-body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+body{ font-family: tangerine, serif;
     margin: 10px;
     padding:10px;
     
@@ -7,7 +7,7 @@ body{ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 .header{
    display: flex;
     justify-content:space-around;
-    box-shadow: inset 0 0 10px 5px rgb(0, 0, 0);
+    box-shadow: inset 0 0 5px 3px rgb(0, 0, 0);
 
     margin:15px;
     margin-top: 0;
@@ -99,4 +99,33 @@ flex-direction: flex-start;
 
 }
 li{
+    display: list-item;
+    text-align: justify;
+    
+        }
+        .photos{
+            display:grid;
+            box-shadow: inset 0 0 10px 5px black;
+             margin: 20px;
+    
+    border-radius: 15px 15px 15px 15px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+            overflow:hidden;
+            
+        }
+    .not::after{
+        bottom: 1rem;
+    }
+           
+        .para{
+            
+            text-align: justify;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+            text-overflow: initial;
+            padding: 0px 20px 20px 20px;
+        }
+        .tit1{
+            padding-top:20px; 
         }
