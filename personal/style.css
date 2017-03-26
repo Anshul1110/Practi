@@ -111,7 +111,7 @@ li{
     border-radius: 15px 15px 15px 15px;
         padding-left: 20px;
         padding-bottom: 20px;
-            overflow:hidden;
+
             
         }
     .not::after{
@@ -128,4 +128,10 @@ li{
         }
         .tit1{
             padding-top:20px; 
+        }
+        .scroll{
+            display: flex;
+            overflow-x: scroll ;
+            margin-right: 20px;
+            
         }
