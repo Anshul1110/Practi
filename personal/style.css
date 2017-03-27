@@ -2,7 +2,7 @@ body{ font-family: tangerine, serif;
     margin: 10px;
     padding:10px;
     
-    font-size: 20px;
+    font-size: 16px;
     }
 .header{
    display: flex;
@@ -24,7 +24,8 @@ body{ font-family: tangerine, serif;
     
     
     padding-top: 5px;
-    padding-left:inherit;
+        padding-left: 80px;
+    padding-right: 40px;
 
 
    
@@ -143,4 +144,16 @@ li{
         }
         img{
             margin: 10px;
+        }
+        .modal{
+            position: fixed;
+            display:none;
+            z-index: 777;
+            height: 100%;
+            width: 100%;
+            box-sizing: 100px 100px;
+            background-position: center;
+            background-color:lightgrey;
+            
+            
         }
