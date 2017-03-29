@@ -1,27 +1,27 @@
 body{ font-family: tangerine, serif;
     margin: 10px;
     padding:10px;
-    
+    background-color: #141311;
+    color: #fe5000;
     font-size: 16px;
     }
 .header{
    display: flex;
     justify-content:space-around;
-    box-shadow: inset 0 0 5px 3px rgb(0, 0, 0);
-
-    margin:15px;
+    box-shadow: inset 0 0 3px 1px #fe5000;
+    background-color: #151515;
     margin-top: 0;
-    padding:20px;
-    border-radius: 15px 15px 15px 15px;
+    padding:inherit;
+    border-radius: 5px 5px 5px 5px;
     height: 70px;
     position: fixed;
     z-index: 999;
-    
+    top:0;
+    left: 0;
 }
 
 .nav{
     display: flex;
-    
     
     padding-top: 5px;
         padding-left: 80px;
@@ -36,6 +36,7 @@ body{ font-family: tangerine, serif;
       justify-content: space-around;
       flex-flow: row nowrap;
       padding: 15px;
+      color:#f68320;
 
   }
 .photo{
@@ -142,9 +143,7 @@ li{
             margin-right: 20px;
             
         }
-        img{
-            margin: 10px;
-        }
+      
         .modal{
             position: fixed;
             display:none;
@@ -158,30 +157,51 @@ li{
             
         }
 
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+.slide1{
+    display:flex;
+    width:800px;
+    height:500px;
+   margin-left: 250px;
+    left:1000px;
+    background-color: white;
+    margin-top:80px;
+    animation:  slide 0.5s forwards;
+    
+    
 }
 .slider{
-    display:flex;
-     position: relative;
-  width: 300%;
-  height: 300px;
+    display: flex;
+     
 
-  margin-top: 100px;
-  left: 10px;
-  text-align: left;
-  font-size: 0;
-  animation: 10s slidy infinite; 
-  box-sizing: box border;
+    overflow:hidden;
+    
 }
-body { margin: 0; } 
-div#slider { overflow: hidden; }
-div#slider  img { width: 20%; float: left; }
+@keyframes sld{
+    0%{ top: 0;
+        opacity:1;
+    }
+    20%{
+        top:-20%;
+        opacity:0;
+    }
+    40%{
+        top:-40%;
+        opacity:0;
+    }
+    60%{
+         top:-60%;
+        opacity:0;
+    }
+    80%{
+         top:-80%;
+        opacity:0;
+    }
+    100%{
+         top:-100%;
+        opacity:0;
+    }
+}
+img{
+    animation:  slide 0.5s forwards;
+
+}
