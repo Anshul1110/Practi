@@ -8,10 +8,10 @@ body{ font-family: tangerine, serif;
 .header{
    display: flex;
     justify-content:space-around;
-    box-shadow: inset 0 0 3px 1px #fe5000;
+   
     background-color: #151515;
     margin-top: 0;
-    padding:inherit;
+    right:0;
     border-radius: 5px 5px 5px 5px;
     height: 70px;
     position: fixed;
@@ -22,21 +22,27 @@ body{ font-family: tangerine, serif;
 
 .nav{
     display: flex;
+    justify-content: space-around;
     
     padding-top: 5px;
-        padding-left: 80px;
-    padding-right: 40px;
+        padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom:50px; 
+}
+.hid{
+    display:block;
+    colo
+}
 
 
-   
-
-    }
+}
   a{
       display: flex;
       justify-content: space-around;
-      flex-flow: row nowrap;
-      padding: 15px;
+      flex-flow: row wrap;
+      padding: 45px 40px 40px 40px;
       color:#f68320;
+      
 
   }
 .photo{
@@ -164,44 +170,52 @@ li{
    margin-left: 250px;
     left:1000px;
     background-color: white;
-    margin-top:80px;
-    animation:  slide 0.5s forwards;
+    margin-top:90px;
+    overflow-x:hidden;
+   
     
     
 }
 .slider{
     display: flex;
-     
+    animation:  slide 5s infinite ;
+     position: relative;
+    
 
-    overflow:hidden;
+    
     
 }
-@keyframes sld{
-    0%{ top: 0;
-        opacity:1;
+slider img
+
+{
+float: left;
+}
+@keyframes slide{
+    0%{ left: 0;
+        
     }
+    10%{
+        left:-100%;
+        
+        }
+
     20%{
-        top:-20%;
-        opacity:0;
+        left:-200%;
+        
     }
     40%{
-        top:-40%;
-        opacity:0;
+        left:-300%;
+        
     }
     60%{
-         top:-60%;
-        opacity:0;
+         left:-400%;
+        
     }
     80%{
-         top:-80%;
-        opacity:0;
+         left:-500%;
     }
     100%{
-         top:-100%;
-        opacity:0;
+         left:0%;
+        
     }
-}
-img{
-    animation:  slide 0.5s forwards;
-
 }
