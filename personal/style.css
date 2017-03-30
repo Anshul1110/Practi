@@ -15,7 +15,7 @@ body{ font-family: tangerine, serif;
     border-radius: 5px 5px 5px 5px;
     height: 70px;
     position: fixed;
-    z-index: 999;
+    z-index: 0;
     top:0;
     left: 0;
 }
@@ -29,13 +29,9 @@ body{ font-family: tangerine, serif;
     padding-right: 30px;
     margin-bottom:50px; 
 }
-.hid{
-    display:block;
-    colo
-}
 
 
-}
+
   a{
       display: flex;
       justify-content: space-around;
@@ -178,7 +174,7 @@ li{
 }
 .slider{
     display: flex;
-    animation:  slide 5s infinite ;
+    animation:  slide 5s ease-out 2s infinite  ;
      position: relative;
     
 
@@ -219,3 +215,4 @@ float: left;
         
     }
 }
+
