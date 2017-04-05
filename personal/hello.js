@@ -8,15 +8,53 @@ function myFunction() {
         x.style.display = 'none';
     }
 }
-function ansh(){
-    var z = document.getElementById('demo');
-   var x  = prompt("Do you love Anshul???", " ");
-   if(x==="yes"){
-       
-         var x=  alert('He also loves you alot and miss u alot!!');
-       
-   }
+
+function fib(n){
+
+
+    
+     
+   
+
+    if(n<=2){
+        
+    //console.log(1);
+    
+        return 1;
+    }
+
+
 else{
-  var x=  alert("Fuck off!!");
+  //console.log(fib(n-1));
+ // console.log(1);
+  console.log(fib(n-1));
+  
+        
+        return fib(n-1)+fib(n-2);
+        
 }
+                
+   // console.log(v);
+   // console.log(fib(n-2));
+    
+
+    }
+    function memo(f) {
+  var cache = {}
+  return function(x) {
+    if (typeof cache[x] === 'undefined') {
+      cache[x] = f(x);
+    }
+    return cache[x];
+  }
 }
+fib = memo(fib);
+
+
+      
+
+    
+
+
+
+console.log(fib(5));
