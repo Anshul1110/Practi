@@ -66,9 +66,6 @@ function move(n,X,Y){
 
 
 function hanoi( n, source, target, spare){
-    if (n===0){
-        
-    }
     if (n===1){
         move(n,source,target);
 
