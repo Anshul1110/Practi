@@ -9,7 +9,7 @@ function myFunction() {
     }
 }
 
-function fib(n){
+/* function fib(n){
 
 
     
@@ -56,5 +56,32 @@ fib = memo(fib);
     
 
 
+//console.log(fib(0));
+//console.log(fib(30));*/
+function move(n,X,Y){
+    console.log(n + "disk moves from " + X + "to " + Y );
 
-console.log(fib(5));
+}
+
+
+
+function hanoi( n, source, target, spare){
+    if (n===0){
+        
+    }
+    if (n===1){
+        move(n,source,target);
+
+    
+        
+    }
+    else{
+        hanoi(n-1,source,spare, target);
+        move(n,source,target);
+        hanoi(n-1, spare, target, source);
+       // move(source,target);
+       // move(spare,target);
+
+    }
+}
+hanoi(2,'A','B','C');
