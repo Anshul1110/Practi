@@ -58,7 +58,7 @@ fib = memo(fib);
 
 //console.log(fib(0));
 //console.log(fib(30));*/
-function move(n,X,Y){
+/*function move(n,X,Y){
     console.log(n + "disk moves from " + X + "to " + Y );
 
 }
@@ -81,4 +81,61 @@ function hanoi( n, source, target, spare){
 
     }
 }
-hanoi(2,'A','B','C');
+hanoi(2,'A','B','C');*/
+
+/*function factorial(n){
+    if (n===0){
+        return 1;
+    }
+    var y = factorial(n-1);
+    return n*factorial(n-1);
+}
+
+console.log(factorial(5));*/
+
+
+/*function gcd(a,b){
+    if ( b<=1){
+        return a;
+    } return gcd(b, a%b);
+
+}
+console.log(gcd(75,36)); */
+
+/*function range(a,b){
+    if (b-a ===a){
+            a= a+1;
+        return a;
+
+        console.log(a);
+
+    }else{ var x = range(a, b-1);
+        return x;
+        
+        
+         }
+
+}
+console.log(range(2,9));*/
+
+/*function even(n){
+    if (n%2==0){
+        console.log("The number is even ");
+        return true;
+    } else {
+        console.log("The number is odd");
+        return true;
+    }
+}
+
+console.log(even(6));*/
+
+/*function exp(a,n){
+    if (n===1){
+        return a;
+    }else{
+        var x = a*exp(a,n-1);
+        return x;
+    }
+}
+console.log(exp(8,3));*/
