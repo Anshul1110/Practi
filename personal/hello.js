@@ -102,21 +102,23 @@ console.log(factorial(5));*/
 }
 console.log(gcd(75,36)); */
 
-/*function range(a,b){
+function range(a,b){
     if (b-a ===a){
             a= a+1;
-        return a;
+        
 
-        console.log(a);
+       console.log(a);
+       // console.log(b-1);
 
-    }else{ var x = range(a, b-1);
-        return x;
+    }else{ var list = range(a, b-1);
+       
+        return list;
         
         
          }
 
 }
-console.log(range(2,9));*/
+console.log(range(2,9));
 
 /*function even(n){
     if (n%2==0){
@@ -139,4 +141,3 @@ console.log(even(6));*/
     }
 }
 console.log(exp(8,3));*/
-
