@@ -133,11 +133,11 @@ console.log(even(6));*/
 console.log(exp(8,3));*/
 
 
-/*function primeNumber(a,b){
+/*function primeNumber(a,b){            {Incorrect}
     
 if (a%b===0){
    return a;
-}
+}                                   
     
 else{
     var x = primeNumber(a,b-1);
