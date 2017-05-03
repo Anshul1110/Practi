@@ -1,4 +1,4 @@
-function dataVal(){
+/*function dataVal(){
 var userAge =parseInt(prompt("What is your Age?"));
 if (isNaN(userAge)){
         console.log("You are an idiot");
@@ -8,3 +8,14 @@ if (isNaN(userAge)){
     console.log("You are an Awesome");
 }
 }
+*/
+
+var student = {
+    name: "David Rayy",
+    sclass: "VI",
+    rollno: 12
+};
+
+
+console.log(Object.keys(student).length);
+
