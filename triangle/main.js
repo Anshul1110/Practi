@@ -10,12 +10,35 @@ if (isNaN(userAge)){
 }
 */
 
-var student = {
-    name: "David Rayy",
-    sclass: "VI",
-    rollno: 12
-};
+/*var foo = [];
+foo.push(1);
+foo.push(2);
 
+console.log(foo.length);
+*/
 
-console.log(Object.keys(student).length);
+/*function removeProp(obj,prop){
+    if (obj.hasOwnProperty(prop)){
+        console.log(obj);
+        delete obj.prop;
+        console.log(prop);
+        return 0;
+    }else {
+        return false;
+    }
+}
+var obj ={
+    name : "Anshul",
+    age : 24
+}
+console.log(removeProp(obj,));*/
 
+function reverseString(str){
+    if (str === ""){
+        return "";
+    }else{
+        var x = reverseString(str.substr(1)) + str.charAt(0);
+    return x;
+    }
+}
+console.log(reverseString("Hello"));
