@@ -33,7 +33,7 @@ var obj ={
 }
 console.log(removeProp(obj,));*/
 
-function reverseString(str){
+/*function reverseString(str){
     if (str === ""){
         return "";
     }else{
@@ -41,4 +41,4 @@ function reverseString(str){
     return x;
     }
 }
-console.log(reverseString("Hello"));
+console.log(reverseString("Hello"));*/
