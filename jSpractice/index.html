@@ -4,18 +4,26 @@
         <title> JavaScript Practi</title>
     </head>
     <body>
-<input type="button" onclick="add(5,6)" value=  "Click"></input>
-<p>JavaAAAASScriptt</p>     
+        <div class="image">
+  <img src="https://goo.gl/2oZU2S" alt="First">
+  <button class="remove">X</button>
+</div>
+<div class="image">
+  <img src="https://goo.gl/tniGAc" alt="Second">
+  <button class="remove" onclick='removeImg()' id="2">X</button>
+</div>
 
-<script>  
 
-function add(a,b){
-    var c =a+b;
-    return c;
+<script> 
+function removeImg(){
+    var c = document.getElementsByClassName('image');
     
+    } 
 
-}
-console.log(c);
+
+
+
+
 
 </script>       
     </body>
